@@ -1,0 +1,36 @@
+.flex {
+  width: 200px;
+  height: 100%;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.img {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+.url {
+  padding-right: 30px;
+}
+.url ul {
+  list-style-type: none;
+}
+.url a {
+  text-decoration: none;
+  color: #2b2b2b;
+  transition: 0.3s;
+}
+.url a:hover {
+  color: #2b2bb2;
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  background-color: black;
+}
